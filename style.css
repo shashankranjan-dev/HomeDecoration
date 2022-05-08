@@ -719,7 +719,9 @@ section .title{
     position: relative;
     text-align: center;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 800;
+    color: var(--grey);
+    text-shadow: 1px #333;
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
@@ -731,7 +733,7 @@ section .title::before{
     left: 50%;
     width: 180px;
     height: 3px;
-    background: #111;
+   
     transform: translateX(-50%);
 }
 section .title::after{
@@ -739,9 +741,9 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: #001D6E;
     padding: 0 5px;
-    background: #fff;
+    
     transform: translateX(-50%);
 }
 
@@ -762,7 +764,7 @@ section .title::after{
 }
 .contact .contact-content .text{
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 800;
     margin-bottom: 10px;
     padding-left: 26px;
     font: bold;
@@ -787,7 +789,7 @@ section .title::after{
     color: crimson;
 }
 .contact .contact-content .info .head{
-    font-weight: 500;
+    font-weight: 800;
 }
 .contact .contact-content .info .sub-title{
     color: #333;
@@ -836,7 +838,7 @@ section .title::after{
   color: #fff;
   display: block;
   width: 160px!important;
-  height: 70px;
+  height: 60px;
   outline: none;
   font-size: 18px;
   font-weight: 500;
